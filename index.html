@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi amor</title>
     <style>
+	.centrado {
+        text-align: center;
+    	}    
         body, html {
             margin: 0;
             padding: 0;
@@ -24,16 +27,19 @@
         }
 
         h1 {
-            font-size: 8vw;
+            font-size: 16vw;
             animation: fadeInOut 2.5s infinite; /* Animación suave */
        
 	}
         h2 {
-            font-size: 4vw;
+            font-size: 8vw;
             margin-top: 20px;
             animation: pulse 2s infinite; /* Pequeño efecto de pulsación */
         }
-
+	div {
+        display: flex;
+        justify-content: center;
+    	}
         button {
             font-size: 3vw;
             padding: 15px 30px;
@@ -82,11 +88,13 @@
     <div>
 	
 	<div class="greetings">
-		<h1><span>Para tí mi vida</span>
+		<h1 class="centrado"><span>Para tí mi vida</span>
 		</h1>	
     	</div>
-        <h2>Tengo un bonito obsequio!✍(◔◡◔)</h2>
+        <h2 class="centrado">Tengo un bonito obsequio!✍(◔◡◔)</h2>
+	<center>
         <button onclick="window.location.href='rosas.html'">Presioname Aqui☞💛</button>
+	</center>
     </div>
 </body>
 </html>
